@@ -1,0 +1,51 @@
+show databases; 
+use school;
+create table p(
+customer_id int,
+customer_name varchar(25),
+customer_email varchar(100)
+);
+create table employee(emp_id varchar(30),
+emp_name varchar (50),
+emp_designation varchar(50),
+emp_age int);
+select * from employee;
+insert into employee
+(emp_id,emp_name,emp_designation,emp_age)
+values(
+1,'a','hr',26),
+(2,'b','ds',34),
+(3,'c','da',32),
+(4,'d','se',35),
+('e5','t','de',45);
+
+
+
+show databases; 
+use school;
+create table cust(
+customer_id int,
+customer_name varchar(25),
+customer_email varchar(100)
+);
+create table student2(
+subject varchar(50),
+name varchar(50) not null,
+age int check(age>18),
+student_id int,
+roll_no int);
+select * from student2;
+insert into student2(name,age)values
+create database ann;
+show databases;
+use ann;
+create table student124(
+stu_id int,
+name varchar(50) not null,
+age int check(age>18));
+show databases;
+create table employee(
+emp_id int,
+emp_name varchar(25);
+;
+create database ann;
